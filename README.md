@@ -7,8 +7,8 @@
   replace "someveryuniquename" with a very unique name.  ;p
 4. `azure site deploymentscript --node`
 
-  
-Invalid start-up command "ng build" in package.json. Please use the format "node < script relative path>".  
+Error message is:
+`Invalid start-up command "ng build" in package.json. Please use the format "node <script relative path>".` 
   
 I've also tried this  
 `"start": "node ./node_modules/angular-cli/bin/ng build --prod"`  
