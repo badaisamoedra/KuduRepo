@@ -1,10 +1,11 @@
 # KuduRepo
 
 ## Local Install ##
-1. This was originally an azure site created with the `--git` flag.  Therefore delete the .git folder and .gitignore files first.
-2. `azure site create --git someveryuniquename`
+1. Open the KuduProject folder.
+2. This was originally an azure site created with the `--git` flag.  Therefore delete the .git folder and .gitignore files first.
+3. `azure site create --git someveryuniquename`
   replace "someveryuniquename" with a very unique name.  ;p
-3. `azure site deploymentscript --node`
+4. `azure site deploymentscript --node`
 
   
 Invalid start-up command "ng build" in package.json. Please use the format "node < script relative path>".  
